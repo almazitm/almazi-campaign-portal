@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Almazi Campaign Portal | Almazi Incorporations HQ</title>
+<meta name="description" content="The Almazi Campaign Portal: faceless video campaigns, campaign tools and promotion launched for your brand by Almazi Incorporations HQ.">
+<meta property="og:title" content="Almazi Campaign Portal">
+<meta property="og:description" content="Faceless video campaigns, tools and promotion launched for your brand. Year One test-run pricing.">
+<meta property="og:type" content="website">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--purple1:#220436;--purple2:#3B0A5C;--purple3:#6B2FA0;--gold:#D4AF37;--gold2:#F4E5B2;--cream:#FAF6EC;}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--purple1);color:var(--cream);font-family:'Inter',sans-serif;overflow-x:hidden}
+.diamondbg{position:fixed;inset:0;z-index:0;background:
+ radial-gradient(ellipse 80% 50% at 50% -10%,rgba(107,47,160,.35),transparent 70%),
+ linear-gradient(180deg,#220436 0%,#2a0745 55%,#1a0330 100%);}
+.diamondbg::before{content:"";position:absolute;inset:0;background-image:
+ linear-gradient(45deg,transparent 49.6%,rgba(212,175,55,.10) 49.6%,rgba(212,175,55,.10) 50.4%,transparent 50.4%),
+ linear-gradient(-45deg,transparent 49.6%,rgba(212,175,55,.10) 49.6%,rgba(212,175,55,.10) 50.4%,transparent 50.4%);
+ background-size:90px 90px;opacity:.5}
+.wrap{position:relative;z-index:1;max-width:1080px;margin:0 auto;padding:0 22px}
+header{padding:26px 0 8px;display:flex;align-items:center;gap:14px}
+.logo{width:46px;height:46px;background:linear-gradient(135deg,#D4AF37,#F4E5B2 50%,#D4AF37);transform:rotate(45deg);border-radius:8px;box-shadow:0 0 22px rgba(212,175,55,.55);display:flex;align-items:center;justify-content:center}
+.logo span{transform:rotate(-45deg);color:#220436;font-weight:900;font-size:20px;font-family:'Playfair Display',serif}
+.brand h1{font-family:'Playfair Display',serif;font-size:20px;letter-spacing:2px;color:var(--gold)}
+.brand p{font-size:11px;letter-spacing:3px;color:#b9a1d8;text-transform:uppercase}
+nav{display:flex;gap:6px;flex-wrap:wrap;padding:14px 0 4px}
+nav a{color:var(--gold2);text-decoration:none;font-size:12px;letter-spacing:1px;border:1px solid rgba(212,175,55,.35);padding:7px 13px;border-radius:999px}
+.hero{position:relative;padding:66px 0 30px;text-align:center}
+.eyebrow{display:inline-block;background:linear-gradient(135deg,#D4AF37,#F4E5B2 60%,#D4AF37);color:#220436;font-size:11px;font-weight:800;letter-spacing:3px;padding:9px 20px;border-radius:999px;text-transform:uppercase;margin-bottom:24px;box-shadow:0 6px 24px rgba(212,175,55,.35)}
+.hero h2{font-family:'Playfair Display',serif;font-size:clamp(30px,6vw,52px);line-height:1.12;color:var(--cream)}
+.hero h2 em{font-style:normal;color:var(--gold)}
+.hero p.sub{margin:18px auto 0;max-width:620px;color:#d8c8ee;font-size:16px;line-height:1.6}
+.cta{margin-top:26px}
+.btn{display:inline-block;background:linear-gradient(135deg,#D4AF37,#F4E5B2 55%,#D4AF37);color:#220436;font-weight:800;padding:15px 34px;border-radius:14px;font-size:15px;letter-spacing:1px;text-decoration:none;box-shadow:0 8px 30px rgba(212,175,55,.35)}
+.btn.ghost{background:transparent;border:1.5px solid rgba(212,175,55,.7);color:var(--gold2);box-shadow:none}
+section{padding:42px 0;border-top:1px solid rgba(212,175,55,.14)}
+h3.sec{font-family:'Playfair Display',serif;font-size:clamp(24px,4.4vw,34px);color:var(--gold);text-align:center;margin-bottom:8px}
+p.lede{color:#d8c8ee;text-align:center;max-width:640px;margin:0 auto 30px;line-height:1.6;font-size:15px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:rgba(59,10,92,.55);border:1px solid rgba(212,175,55,.28);border-radius:18px;padding:24px}
+.card .num{display:inline-flex;width:38px;height:38px;transform:rotate(45deg);background:linear-gradient(135deg,#D4AF37,#F4E5B2);border-radius:7px;align-items:center;justify-content:center;margin-bottom:14px}
+.card .num b{transform:rotate(-45deg);color:#220436;font-weight:900}
+.card h4{font-size:16px;color:var(--gold2);margin-bottom:8px}
+.card p{font-size:13.5px;color:#cfc0e6;line-height:1.55}
+footer{border-top:1px solid rgba(212,175,55,.25);padding:30px 0 44px;text-align:center;color:#b9a1d8;font-size:13px;line-height:2}
+footer a{color:var(--gold);text-decoration:none}
+.standard{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;padding:8px 0 30px}
+.standard span{border:1px solid rgba(212,175,55,.45);color:var(--gold2);font-size:11px;letter-spacing:2px;padding:6px 14px;border-radius:999px;text-transform:uppercase}
+@media(min-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="diamondbg"></div>
+<div style="position:relative;z-index:9;background:rgba(212,175,55,.14);border-bottom:1px solid rgba(212,175,55,.55);color:var(--gold2);text-align:center;font-size:12px;letter-spacing:2px;padding:10px 16px;text-transform:uppercase">Build in progress — parts of this portal are still under construction</div>
+<div class="wrap">
+<header>
+  <div class="logo"><span>A</span></div>
+  <div class="brand">
+    <h1>ALMAZI INCORPORATIONS HQ</h1>
+    <p>Campaign Portal</p>
+  </div>
+</header>
+<nav>
+  <a href="#about">What This Is</a>
+  <a href="#how">How It Works</a>
+  <a href="#hq">Inside HQ</a>
+</nav>
+
+<div class="hero">
+  <span class="eyebrow">★ Now Open — Year One Test-Run Pricing</span>
+  <h2>Talent gets you in the room.<br><em>Execution keeps you there.</em></h2>
+  <p class="sub">Faceless video campaigns, script and content tools, and promotion launched for your brand. Look around, watch the work, pull one tool free. The full vault opens when you take a seat.</p>
+  <div class="cta"><a class="btn" href="#how">How It Works</a> <a class="btn ghost" href="#hq">Inside HQ</a></div>
+</div>
+
+<section id="about">
+  <h3 class="sec">What This Is</h3>
+  <p class="lede">Plain words. This is the work floor of Almazi Incorporations HQ, opened to the public.</p>
+  <div class="grid">
+    <div class="card"><h4>The Work</h4><p>We build faceless campaign videos, write the scripts and overlays, and launch promotion that puts your name in the streets and on the timeline.</p></div>
+    <div class="card"><h4>Who It's For</h4><p>Artists, brands and business owners who need promotion running every week without hiring a full team. If you have something to sell and nobody talking about it, this is for you.</p></div>
+    <div class="card"><h4>What A Subscription Is</h4><p>A monthly seat at HQ. Your tools, your campaigns and your weekly audit, run on the same discipline we run internally. Cancel anytime, no contract traps.</p></div>
+    <div class="card"><h4>What It Is Not</h4><p>Not a course. Not an ebook. Not a bot. Real campaign work, produced and launched by people, delivered to your inbox on a schedule.</p></div>
+  </div>
+</section>
+
+<section id="how">
+  <h3 class="sec">How It Works</h3>
+  <p class="lede">Four steps from stranger to campaign in motion.</p>
+  <div class="grid">
+    <div class="card"><span class="num"><b>1</b></span><h4>Pick Your Plan</h4><p>Starter, Campaign Pro or HQ Retainer.</p></div>
+    <div class="card"><span class="num"><b>2</b></span><h4>Subscribe In Seconds</h4><p>Checkout with Apple Pay or card. No forms to chase, no contracts.</p></div>
+    <div class="card"><span class="num"><b>3</b></span><h4>Welcome Pack In 24 Hours</h4><p>Your inbox gets the tools for your tier, your first campaign brief, and your audit schedule.</p></div>
+    <div class="card"><span class="num"><b>4</b></span><h4>We Launch And Audit</h4><p>Campaigns go out, numbers come back, weekly audits tell you what doubled and what got cut.</p></div>
+  </div>
+</section>
+
+<section id="hq">
+  <h3 class="sec">Inside HQ</h3>
+  <p class="lede">The business behind the portal, in plain sight.</p>
+  <div class="grid">
+    <div class="card"><h4>The Order Flow</h4><p>Subscribe. Welcome pack within 24 hours. Work delivered weekly. Audit at the end of every week. One loop, every month, no drift.</p></div>
+    <div class="card"><h4>The Contact Promise</h4><p>Leave your contact information, and we get back to you within six days. That promise is written on our doors and it holds here.</p></div>
+    <div class="card"><h4>The Guarantee Of The Standard</h4><p>Loyalty, honesty, respect. If a deliverable isn't strong enough to get people talking, it doesn't ship. It gets rebuilt.</p></div>
+    <div class="card"><h4>The Line To HQ</h4><p>Call or text (415) 200-9471 or email Almazi1919@gmail.com. Campaign Pro and HQ Retainer subscribers get the priority line.</p></div>
+  </div>
+</section>
+
+<div class="standard">
+  <span>Loyalty</span><span>Honesty</span><span>Respect</span><span>Discipline</span><span>Dedication</span>
+</div>
+
+<footer>
+  ALMAZI INCORPORATIONS HQ<br>
+  <a href="mailto:Almazi1919@gmail.com">Almazi1919@gmail.com</a><br>
+  © 2026 Almazi Incorporations HQ. All rights reserved.<br>
+  From Gangster to Gentleman Corporation, Growth and Development.
+</footer>
+</div>
+</body>
+</html>
